@@ -1,13 +1,12 @@
-body { background-color: rgb(0, 0, 0);
+/* body { background-color: rgb(0, 0, 0);
 
-    min-height: 650px}
+    min-height: 650px} */
 
 @import url('https://fonts.googleapis.com/css?family=Red+Hat+Display:900&display=swap');
 
 
  body {
-  width: 100vw;
-  
+  max-width: 100%;
   /* overflow-x:visible; */
   height: 100vh;
   display: flex;
@@ -16,8 +15,11 @@ body { background-color: rgb(0, 0, 0);
   align-items: center;
   align-content: center;
   flex-wrap: wrap;
+  background-color: rgb(0, 0, 0);
 
-  min-height: 400px;
+    min-height: 650px
+
+  /* min-height: 400px; */
  
   
 }
@@ -77,7 +79,8 @@ body { background-color: rgb(0, 0, 0);
   flex-wrap: wrap;
   background-repeat: no-repeat;
   background-size:contain;  
-  background-image: url("https://i.pinimg.com/564x/2e/57/41/2e5741b2936772714bfa77bed4cda835.jpg");
+  /* background-image: url("https://i.pinimg.com/564x/2e/57/41/2e5741b2936772714bfa77bed4cda835.jpg"); */
+  background-image: url("../final.jpg");
   /* background-image: url("D:/Portflio webpage/IMG20220701113550-01.jpeg"); */
 
 height: 200vh;
@@ -267,7 +270,7 @@ height: 75vh;
   }
 
 .skills{
-  background:rgb(129, 126, 127);
+  background:rgb(80, 79, 79);
   
   width: 100%;
   height:100vh;
@@ -278,6 +281,7 @@ height: 75vh;
   right:0px;
   left: 0;
   bottom:7.5vh;
+  /* position:sticky; */
   position: absolute;
   display: flex;
   flex-direction:row;
@@ -329,9 +333,30 @@ h8{
 h9{
   width: 50vw;
   height: 2vh;
-  justify-content:right;
+  /* margin-right: 40px; */
+  margin: -20px;
+  /* justify-content:left; */
  
-  left:690px ;
+  /* left:690px ; */
   /* left: 690px; */
   position:static;
+}
+
+@media (max-width: 2560px)  {
+  body {
+    max-width:100%;
+    
+  
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(0, 0, 0);
+    min-height: 650px
+  
+  
+  } 
 }
