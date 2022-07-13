@@ -7,7 +7,7 @@
 
  body {
   max-width: 100%;
-  /* overflow-x:visible; */
+  overflow-x:hidden;
   height: 100vh;
   display: flex;
   flex-direction: row;
@@ -323,13 +323,6 @@ h7{
   
 }
 
-h8{
-  width: 50vw;
-  height: 2vh;
-  justify-content:left;
-  right:150px;
-  position: absolute;
-}
 h9{
   width: 50vw;
   height: 2vh;
@@ -360,7 +353,7 @@ h9{
 }
 @media (max-width: 425px) {
   .one {
-    width: 100vw;
+    max-width: 100%;
     height: 100vh;
     margin: 0vw;
     top:30vh;
