@@ -363,11 +363,11 @@ h9{
     width: 100vw;
     height: 100vh;
     margin: 0vw;
-    top:50vh;
+    top:30vh;
     right:0px;
     bottom:0vh;
     left: 0vh;
-    position: fixed;
+    position: absolute;
     display: flex;
     flex-direction: row;
     justify-content:center;
