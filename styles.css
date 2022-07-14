@@ -272,7 +272,7 @@ height: 75vh;
 .skills{
   background:rgb(80, 79, 79);
   
-  width: 100%;
+  width: 100vw;
   height:100vh;
   right: 0;
   padding: 5vh;
@@ -403,7 +403,7 @@ h9{
   right: 0;
   /* padding: 100vh; */
   margin: 0;
-  top:100vh;
+  top:90vh;
   right:0px;
   left: 0;
   bottom:7.5vh;
@@ -429,5 +429,40 @@ h9{
   cursor: pointer;
   justify-content:center;
   
+}
+h5{
+  color: rgba(9, 9, 9, 0.875);
+  word-spacing: 30px;
+  text-indent: 10px;
+  text-align:justify;
+  font-size: 20px;
+  /* padding: 1px; */
+  /* margin: 50px; */
+  right: 100px;
+  margin-top: 25px;
+  bottom: 50px;
+ 
+}
+.two {
+  width: 56.5vw;
+  height: 20vh;
+  margin: 0vw;
+  /* top:5vh; */
+  right:0px;
+  bottom:0vh;
+  left: 0vh;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  background-repeat: no-repeat;
+  /* background-size:contain;   */
+  /* background-image: url("https://i.pinimg.com/564x/2e/57/41/2e5741b2936772714bfa77bed4cda835.jpg"); */
+  background-image: url("img/final2.jpg");
+  /* background-image: url("D:/Portflio webpage/IMG20220701113550-01.jpeg"); */
+/* height: 200vh; */
 }
 } 
